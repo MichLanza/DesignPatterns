@@ -1,0 +1,11 @@
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.AssemblyInfo.cs
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.RazorAssemblyInfo.cache
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.RazorAssemblyInfo.cs
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.dll
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\refint\MVC.DesignPatterns.dll
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.pdb
