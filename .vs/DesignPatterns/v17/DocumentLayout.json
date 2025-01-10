@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\mvc.designpatterns\\views\\productdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|solutionrelative:mvc.designpatterns\\views\\productdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A7C3282B-CB38-4AF3-8C28-5314C2212EC0}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C3282B-CB38-4AF3-8C28-5314C2212EC0}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C3282B-CB38-4AF3-8C28-5314C2212EC0}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\designpatterns\\dependencyinjection\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C3282B-CB38-4AF3-8C28-5314C2212EC0}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\dependencyinjection\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\mvc.designpatterns\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|solutionrelative:mvc.designpatterns\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\iearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\iearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\foreignearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\foreignearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\earnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\earnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\localearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\localearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\foreignearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\foreignearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\localearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\localearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\mvc.designpatterns\\views\\productdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E831916D-A6A4-4E94-9F6A-6746BD4351FC}|MVC.DesignPatterns\\MVC.DesignPatterns.csproj|solutionrelative:mvc.designpatterns\\views\\productdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|c:\\users\\victus\\desktop\\dev\\net-projects\\designpatterns\\tools\\earn\\iearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A860E1-E82A-492B-9D8C-F18E8C464CCD}|Tools\\Tools.csproj|solutionrelative:tools\\earn\\iearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\DesignPatterns\\DependencyInjection\\VideoGame.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\DependencyInjection\\VideoGame.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\DesignPatterns\\DependencyInjection\\VideoGame.cs",
+              "RelativeToolTip": "DesignPatterns\\DependencyInjection\\VideoGame.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:46:52.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeToolTip": "DesignPatterns\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:03:18.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForeignEarnFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\ForeignEarnFactory.cs",
+              "RelativeDocumentMoniker": "Tools\\Earn\\ForeignEarnFactory.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\ForeignEarnFactory.cs",
+              "RelativeToolTip": "Tools\\Earn\\ForeignEarnFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:00:16.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalEarnFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\LocalEarnFactory.cs",
+              "RelativeDocumentMoniker": "Tools\\Earn\\LocalEarnFactory.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\LocalEarnFactory.cs",
+              "RelativeToolTip": "Tools\\Earn\\LocalEarnFactory.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:58:03.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForeignEarn.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\ForeignEarn.cs",
+              "RelativeDocumentMoniker": "Tools\\Earn\\ForeignEarn.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\ForeignEarn.cs",
+              "RelativeToolTip": "Tools\\Earn\\ForeignEarn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:58:04.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\MVC.DesignPatterns\\Views\\ProductDetail\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC.DesignPatterns\\Views\\ProductDetail\\Index.cshtml",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\MVC.DesignPatterns\\Views\\ProductDetail\\Index.cshtml",
               "RelativeToolTip": "MVC.DesignPatterns\\Views\\ProductDetail\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-10T17:47:49.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductDetailController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\MVC.DesignPatterns\\Controllers\\ProductDetailController.cs",
               "RelativeDocumentMoniker": "MVC.DesignPatterns\\Controllers\\ProductDetailController.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\MVC.DesignPatterns\\Controllers\\ProductDetailController.cs",
               "RelativeToolTip": "MVC.DesignPatterns\\Controllers\\ProductDetailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T17:47:37.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EarnFactory.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\EarnFactory.cs",
-              "RelativeDocumentMoniker": "Tools\\Earn\\EarnFactory.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\EarnFactory.cs",
-              "RelativeToolTip": "Tools\\Earn\\EarnFactory.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T17:28:34.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LocalEarn.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\LocalEarn.cs",
               "RelativeDocumentMoniker": "Tools\\Earn\\LocalEarn.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\LocalEarn.cs",
               "RelativeToolTip": "Tools\\Earn\\LocalEarn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T17:26:28.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IEarn.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\Dev\\NET-projects\\DesignPatterns\\Tools\\Earn\\IEarn.cs",
               "RelativeDocumentMoniker": "Tools\\Earn\\IEarn.cs",

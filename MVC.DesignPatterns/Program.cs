@@ -1,10 +1,24 @@
 using DesignPatterns.MVC.Config;
+using Tools.Earn;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.Configure<ProjectConfig>(builder.Configuration.GetSection("Config"));
+
+builder.Services.AddTransient((factory) =>
+{
+    return new LocalEarnFactory(0.20m);
+});
+
+
+builder.Services.AddTransient((factory) =>
+{
+    return new ForeignEarnFactory(0.20m,7.0m);
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
