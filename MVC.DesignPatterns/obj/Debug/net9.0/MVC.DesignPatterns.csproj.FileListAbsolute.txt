@@ -9,3 +9,4 @@ C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\D
 C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.dll
 C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\refint\MVC.DesignPatterns.dll
 C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.pdb
+C:\Users\VICTUS\Desktop\Dev\NET-projects\DesignPatterns\MVC.DesignPatterns\obj\Debug\net9.0\MVC.DesignPatterns.sourcelink.json

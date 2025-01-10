@@ -8,7 +8,6 @@ namespace Tools.Earn
 {
     public abstract class EarnFactory
     {
-        public abstract IEarn CreateEarn(decimal percentage);
-
+        public abstract IEarn CreateEarn();
     }
 }

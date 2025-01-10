@@ -1,10 +1,10 @@
 ﻿namespace Tools.Earn
 {
-    public class LocalEart : IEarn
+    public class LocalEarn : IEarn
     {
         private decimal _percentage;
 
-        public LocalEart(decimal percentage)
+        public LocalEarn(decimal percentage)
         {
             _percentage = percentage;
         }
