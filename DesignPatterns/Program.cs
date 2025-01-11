@@ -6,6 +6,7 @@ using DesignPatterns.Repository;
 using DesignPatterns.UnitOfWork;
 using DesignPatterns.Strategy;
 using DesignPatterns.Builder;
+using DesignPatterns.State;
 
 //Singleton
 var singleton = SingletonExample.Instance;
@@ -84,3 +85,16 @@ var director = new BarmanDirector(builder);
 director.PrepareLimonade();
 var drink = builder.GetPreparedDrink();
 Console.WriteLine(drink.Result);
+
+//State
+
+var customerContext = new CustomerContext();
+Console.WriteLine(customerContext.GetState());
+customerContext.Request(100);
+Console.WriteLine(customerContext.GetState());
+customerContext.Request(50);
+Console.WriteLine(customerContext.GetState());
+customerContext.Request(100);
+Console.WriteLine(customerContext.GetState());
+customerContext.Request(50);
+Console.WriteLine(customerContext.GetState());
