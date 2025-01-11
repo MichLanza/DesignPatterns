@@ -1,0 +1,34 @@
+﻿@using DesignPatterns.MVC.Models.ViewModels
+@model AddVideoGameViewModel
+
+
+<form asp-controller="VideoGame" asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Genero"></label>
+        <input asp-for="Genero" class="form-control" />
+        <span asp-validation-for="Genero" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CompanyName"></label>
+        <input asp-for="CompanyName" class="form-control" />
+        <span asp-validation-for="CompanyName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CompanyId"></label>
+        <select class="form-control" asp-for="CompanyId" asp-items="@ViewBag.Companies">
+            <option value="">Seleccione una compañía</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>

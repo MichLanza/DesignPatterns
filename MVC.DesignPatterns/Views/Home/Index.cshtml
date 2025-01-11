@@ -1,0 +1,14 @@
+﻿@using DesignPatterns.Models.Entities
+@model IEnumerable<Videogame>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-12">
+        @foreach (var videogame in Model)
+        {
+            <p>@videogame.Nombre</p>
+        }
+    </div>
+</div>

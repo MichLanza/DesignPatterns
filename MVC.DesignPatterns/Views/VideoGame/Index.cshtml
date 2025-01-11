@@ -1,0 +1,28 @@
+﻿@using DesignPatterns.MVC.Models.ViewModels
+@model IEnumerable<VideoGameViewModel>
+
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary" href="~/VideoGame/Add">Añadir Video Game</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table">
+            <tr>
+                <th>
+                    Nombre
+                </th>
+            </tr>
+            @foreach (var vg in Model)
+            {
+                <tr>
+                    <td>
+                        @vg.Nombre
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
