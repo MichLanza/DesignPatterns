@@ -4,6 +4,7 @@ using DesignPatterns.DependencyInjection;
 using DesignPatterns.Models;
 using DesignPatterns.Repository;
 using DesignPatterns.UnitOfWork;
+using DesignPatterns.Strategy;
 
 //Singleton
 var singleton = SingletonExample.Instance;
@@ -26,43 +27,52 @@ var list = contextDb.Videogames.ToList();
 foreach (var vg in list)
     Console.WriteLine(vg.Nombre);
 
-//Repository
-var repository = new VideoGameRepository(contextDb);
-var videoGame = new Videogame { Nombre = "Hollow Knight", Genero = "Metroidvania" };
-repository.Add(videoGame);
-repository.Save();
-var vgs = repository.Get();
-foreach (var vg in vgs)
-    Console.WriteLine(vg.Nombre);
-
-//Generic Repository
-var genericRepo = new Repository<Videogame>(contextDb);
-var newVideoGame = new Videogame { Nombre = "Stardew Valley", Genero = "Simulación" };
-genericRepo.Add(newVideoGame);
-genericRepo.Save();
-var list2 = genericRepo.Get();
-
-genericRepo.Delete(list2.FirstOrDefault(v => v.Nombre == "Hollow Knight").Id);
-genericRepo.Save();
-foreach (var vg in list2)
-    Console.WriteLine(vg.Nombre);
-var companyRepo = new Repository<Company>(contextDb);
-var newCompany = new Company { Name = "Konami" };
-companyRepo.Add(newCompany);
-companyRepo.Save();
-foreach (var company in companyRepo.Get())
+bool isActive = false;
+if (isActive)
 {
-    Console.WriteLine(company.Name);
+    //Repository
+    var repository = new VideoGameRepository(contextDb);
+    var videoGame = new Videogame { Nombre = "Hollow Knight", Genero = "Metroidvania" };
+    repository.Add(videoGame);
+    repository.Save();
+    var vgs = repository.Get();
+    foreach (var vg in vgs)
+        Console.WriteLine(vg.Nombre);
+
+    //Generic Repository
+    var genericRepo = new Repository<Videogame>(contextDb);
+    var newVideoGame = new Videogame { Nombre = "Stardew Valley", Genero = "Simulación" };
+    genericRepo.Add(newVideoGame);
+    genericRepo.Save();
+    var list2 = genericRepo.Get();
+
+    genericRepo.Delete(list2.FirstOrDefault(v => v.Nombre == "Hollow Knight").Id);
+    genericRepo.Save();
+    foreach (var vg in list2)
+        Console.WriteLine(vg.Nombre);
+    var companyRepo = new Repository<Company>(contextDb);
+    var newCompany = new Company { Name = "Konami" };
+    companyRepo.Add(newCompany);
+    companyRepo.Save();
+    foreach (var company in companyRepo.Get())
+    {
+        Console.WriteLine(company.Name);
+    }
+
+    //UnitOfWork
+    var unitOfWork = new UnitOfWork(contextDb);
+    var vgRepo = unitOfWork.Videogames;
+    var companyRepoUW = unitOfWork.Commpanies;
+    var newCompany2 = new Company { Name = "Bethesda" };
+    var newVideoGame2 = new Videogame { Nombre = "The Legend of Zelda: Breath of the Wild", Genero = "Aventura" };
+    vgRepo.Add(newVideoGame2);
+    companyRepoUW.Add(newCompany2);
+    unitOfWork.Save();
 }
 
-//UnitOfWork
-var unitOfWork = new UnitOfWork(contextDb);
-var vgRepo = unitOfWork.Videogames;
-var companyRepoUW = unitOfWork.Commpanies;
-var newCompany2 = new Company { Name = "Bethesda" };
-var newVideoGame2 = new Videogame { Nombre = "The Legend of Zelda: Breath of the Wild", Genero = "Aventura" };
-vgRepo.Add(newVideoGame2);
-companyRepoUW.Add(newCompany2);
-unitOfWork.Save();
 
-
+//Strategy
+var context = new Context(new CarStrategy());
+context.Run();
+context.Strategy = new MotoStrategy();
+context.Run();

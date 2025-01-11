@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Models.Entities;
 using DesignPatterns.MVC.Models.ViewModels;
+using DesignPatterns.MVC.Strategies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repository;
@@ -26,7 +27,7 @@ namespace DesignPatterns.MVC.Controllers
                                                          };
 
 
-            return View("Index",videogames);
+            return View("Index", videogames);
         }
 
         [HttpGet]
@@ -34,7 +35,7 @@ namespace DesignPatterns.MVC.Controllers
         {
             FillComboCompany();
             return View();
-        }    
+        }
 
         [HttpPost]
         public IActionResult Add(AddVideoGameViewModel add)
@@ -45,28 +46,10 @@ namespace DesignPatterns.MVC.Controllers
                 return View("Add", add);
             }
 
-            var videoGame = new Videogame()
-            {
-                Nombre = add.Nombre,
-                Genero = add.Genero,
-            };
-
-            if(add.CompanyId == null)
-            {
-                var company = new Company()
-                {
-                    Uid = Guid.NewGuid(),
-                    Name = add.CompanyName
-                };
-                videoGame.CompanyId = company.Uid;
-                _unitOfWork.Commpanies.Add(company);
-            }
-            else
-            {
-                videoGame.CompanyId = add.CompanyId;
-            }
-            _unitOfWork.Videogames.Add(videoGame);
-            _unitOfWork.Save();
+            var context = add.CompanyId is null ?
+                            new VideoGameContext(new VideoGameNewCompanyStrategy()) :
+                            new VideoGameContext(new VideoGameStrategy());
+            context.Add(add, _unitOfWork);
 
             return RedirectToAction("Index");
         }
