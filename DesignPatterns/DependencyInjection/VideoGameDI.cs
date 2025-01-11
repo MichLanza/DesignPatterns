@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.DependencyInjection
 {
-    public class VideoGame
+    public class VideoGameDI
     {
         private string _name;
         private string _genre;
         public string Name { get => _name; }
 
-        public VideoGame(string name, string genre)
+        public VideoGameDI(string name, string genre)
         {
             _name = name;
             _genre = genre;
@@ -22,10 +22,10 @@ namespace DesignPatterns.DependencyInjection
     
     public class PlayVideoGame
     {
-        private VideoGame _videoGame;
+        private VideoGameDI _videoGame;
         private string _console;
 
-        public PlayVideoGame( VideoGame videoGame , string console)
+        public PlayVideoGame( VideoGameDI videoGame , string console)
         {
             _videoGame = videoGame;
             _console = console;

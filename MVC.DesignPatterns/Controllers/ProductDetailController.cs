@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.Metrics;
+using System;
 using Tools.Earn;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MVC.DesignPatterns.Controllers
 {
@@ -21,7 +25,7 @@ namespace MVC.DesignPatterns.Controllers
             var localEarn = _localEarnFactory.CreateEarn();
             var foreign = _foreignEarnFactory.CreateEarn();
 
-            ViewBag.Total = total + localEarn.Earn(total);  
+            ViewBag.Total = total + localEarn.Earn(total);
             ViewBag.TotalForeign = total + foreign.Earn(total);
 
             return View();

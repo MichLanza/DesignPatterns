@@ -1,7 +1,9 @@
+using DesignPatterns.Models.Entities;
 using DesignPatterns.MVC.Config;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using MVC.DesignPatterns.Models;
+using Repository;
 using System.Diagnostics;
 using Tools;
 
@@ -9,16 +11,23 @@ namespace MVC.DesignPatterns.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IRepository<Videogame> _repository;
         private readonly IOptions<ProjectConfig> _config;
-        public HomeController(IOptions<ProjectConfig> config)
+        public HomeController(
+            IOptions<ProjectConfig> config,
+            IRepository<Videogame> repository)
         {
             _config = config;
+            _repository = repository;
         }
 
         public IActionResult Index()
         {
             Log.GetInstance(_config.Value.LogPath).Save("Index");
-            return View();
+
+            IEnumerable<Videogame> list = _repository.Get();
+
+            return View("Index",list);
         }
 
         public IActionResult Privacy()

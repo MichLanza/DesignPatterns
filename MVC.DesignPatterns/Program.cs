@@ -1,4 +1,7 @@
+using DesignPatterns.Models.Entities;
 using DesignPatterns.MVC.Config;
+using Microsoft.EntityFrameworkCore;
+using Repository;
 using Tools.Earn;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +16,17 @@ builder.Services.AddTransient((factory) =>
     return new LocalEarnFactory(0.20m);
 });
 
-
 builder.Services.AddTransient((factory) =>
 {
-    return new ForeignEarnFactory(0.20m,7.0m);
+    return new ForeignEarnFactory(0.20m, 7.0m);
 });
+
+builder.Services.AddDbContext<VideoGameAppContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VideoGameApp"));
+});
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 var app = builder.Build();
 
