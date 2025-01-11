@@ -21,9 +21,11 @@ builder.Services.AddTransient((factory) =>
     return new ForeignEarnFactory(0.20m, 7.0m);
 });
 
+var conn = builder.Configuration.GetConnectionString("VideoGameApp");
+
 builder.Services.AddDbContext<VideoGameAppContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("VideoGameApp"));
+    options.UseSqlServer(conn);
 });
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
