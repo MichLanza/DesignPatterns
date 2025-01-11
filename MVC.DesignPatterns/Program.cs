@@ -3,6 +3,7 @@ using DesignPatterns.MVC.Config;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Tools.Earn;
+using Tools.Generator;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +32,7 @@ builder.Services.AddDbContext<VideoGameAppContext>(options =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+builder.Services.AddScoped<GeneratorConcreteBuilder>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

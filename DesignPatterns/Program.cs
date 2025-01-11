@@ -5,6 +5,7 @@ using DesignPatterns.Models;
 using DesignPatterns.Repository;
 using DesignPatterns.UnitOfWork;
 using DesignPatterns.Strategy;
+using DesignPatterns.Builder;
 
 //Singleton
 var singleton = SingletonExample.Instance;
@@ -76,3 +77,10 @@ var context = new Context(new CarStrategy());
 context.Run();
 context.Strategy = new MotoStrategy();
 context.Run();
+
+//Builder
+var builder = new PreparedDrinkConcreteBuilder();
+var director = new BarmanDirector(builder);
+director.PrepareLimonade();
+var drink = builder.GetPreparedDrink();
+Console.WriteLine(drink.Result);
